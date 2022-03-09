@@ -1,0 +1,62 @@
+html {
+	cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+
+body{
+	background-image: url(imagens/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+/* Estilização das moscas */
+.mosquito1 {
+	width:70px;
+	height:70px;
+}
+
+.mosquito2 {
+	width:90px;
+	height:90px;
+}
+
+.mosquito3 {
+	width:120px;
+	height:120px;
+}
+
+.ladoA {
+	transform: scaleX(1);
+}
+
+.ladoB {
+	transform: scaleX(-1);
+}
+
+/*Estilo do painel */
+
+.painel {
+	position: absolute;
+	width: 190px;
+	padding: 0px;
+	bottom: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+	left: 0px;
+}
+
+.vidas {
+	float: left;
+}
+
+.cronometro {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Estilo página fim de jogo*/
+
+.abaixar {
+	margin-top: 30px;
+}
